@@ -1,0 +1,45 @@
+{
+  "name": "4n0n1m17y-b3g1n5",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.6.3",
+    "bulmaswatch": "^0.8.1",
+    "crypto-js": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sentiment": "^5.0.2",
+    "shortid": "^2.2.16",
+    "spin.js": "^4.1.1"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sh0von/4n0n1m17y-b3g1n5.git"
+  },
+  "keywords": [
+    "Anonymous",
+    "message"
+  ],
+  "author": "sh0von",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sh0von/4n0n1m17y-b3g1n5/issues"
+  },
+  "homepage": "https://github.com/sh0von/4n0n1m17y-b3g1n5#readme"
+}
