@@ -82,7 +82,7 @@ const Home = () => {
     <div className="container">
       <section className="section">
         <div className="container">
-          <h1 className="title has-text-centered is-size-2">4n0n1m17y B3g1n5</h1>
+          <h1 className="title has-text-centered is-size-2">WhisperSafe</h1>
           <p className='has-text-centered is-size-4'>
             It's me Shovon. Just trying another project. bla bla bla....
           </p><br></br>
