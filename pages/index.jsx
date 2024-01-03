@@ -44,11 +44,9 @@ const Home = () => {
       "Your presence makes the world a better place. 🌍",
       "You are worthy of love and respect. ❤️"
     ];
-  
     setRandomMessages(messagesArray);
   }, []);
   
-
   const getRandomMessage = () => {
     const randomIndex = Math.floor(Math.random() * randomMessages.length);
     setMessage(randomMessages[randomIndex]);
@@ -56,15 +54,9 @@ const Home = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     try {
       setIsLoading(true);
-      const token = process.env.NEXT_PUBLIC_API_SECRET_TOKEN;
-      await simulateEncryption();
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      await axios.post('/api/messages', { content: message }, {
-        headers: { Authorization: `Bearer ${token}` },
-      });
+      await axios.post('/api/messages', { content: message });
       setMessage('');
       setIsMessageSent(true);
     } catch (error) {
@@ -73,11 +65,7 @@ const Home = () => {
       setIsLoading(false);
     }
   };
-
-  const simulateEncryption = async () => {
-    await new Promise(resolve => setTimeout(resolve, 1000));
-  };
-
+  
   return (
     <div className="container">
       <section className="section">

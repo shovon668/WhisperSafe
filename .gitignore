@@ -16,3 +16,7 @@ out/
 .env.test.local
 .env.production.local
 .env
+
+# Prisma
+migrations/
+dev.db

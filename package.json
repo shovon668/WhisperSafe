@@ -1,5 +1,5 @@
 {
-  "name": "4n0n1m17y-b3g1n5",
+  "name": "whisper-safe",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -13,33 +13,36 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@prisma/client": "^5.7.1",
     "axios": "^1.6.3",
     "bulmaswatch": "^0.8.1",
     "crypto-js": "^4.2.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.0.3",
     "next": "14.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sentiment": "^5.0.2",
     "shortid": "^2.2.16",
-    "spin.js": "^4.1.1"
+    "spin.js": "^4.1.1",
+    "swr": "^2.2.4"
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "next.config.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sh0von/4n0n1m17y-b3g1n5.git"
+    "url": "git+https://github.com/shovon668/WhisperSafe.git"
   },
   "keywords": [
     "Anonymous",
     "message"
   ],
-  "author": "sh0von",
+  "author": "sh0von, shovon668",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sh0von/4n0n1m17y-b3g1n5/issues"
+    "url": "https://github.com//shovon668/WhisperSafe/issues"
   },
-  "homepage": "https://github.com/sh0von/4n0n1m17y-b3g1n5#readme"
+  "homepage": "https://github.com/shovon668/WhisperSafe#readme",
+  "devDependencies": {
+    "prisma": "^5.7.1"
+  }
 }
